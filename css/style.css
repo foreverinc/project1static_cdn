@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+ 
+.navbar-brand img {
+  width:100%;
+  max-width:300px;
+  position:absolute;
+  transition:all 300ms linear;
+  transform-origin: 0% 0%;
+  border-radius: 10px;
+}
+ 
+@media screen and (max-width:956px){
+  .navbar-brand img {
+    width:100%;
+    max-width:60px;
+    position:relative;
+  }
+}
+ 
+img.consize {
+  transform : translateY(-20px) scale(0.25);
+}
+#mainNav {
+  transition : background 300ms linear;
+}
+
+.this-h1{
+    padding-top:45vh;
+    padding-bottom:19rem;
+    text-shadow : 0px 3px 4px rgba(0,0,0,0.8);
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(248, 82, 21);
+}
+@media screen and (max-width:956px){
+  .this-h1{
+    padding:14rem 10px;
+  }
+}
+.in-text{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    font-size: 15px;
+    text-align: right;
+    font-style: italic;
+    text-transform: none;
+    color: white;
+}
+.first-section{
+    background-color: rgb(136, 123, 168);
+}
+.sect .card .card-body h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(112, 112, 165);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.sect .card .card-body div{
+    color: rgb(100, 107, 117);
+    position: relative;
+}
+.sect .card .card-body div a{
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.sect .card {
+    background-color: rgb(245, 209, 142);
+    margin-bottom: 20px;
+    min-height: 11rem;
+    
+}
+.num{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(121, 121, 165);
+}
+.countdown{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.__{
+    font-size: 2rem;
+}
+.label{
+    color: rgb(175, 119, 14);
+    border-radius: 5px;
+    font-size: .75rem;
+    padding: .1rem .2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.day,
+.hour,
+
+.minute,
+.second{
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(85, 85, 128);
+}
+.other div h4{
+    display: inline-block;
+    font-size: 1rem;
+    font-style: italic;
+}
+.other div span{
+    font-size: 1rem;
+    color: rgb(127, 152, 189);
+    font-weight: bold;
+    margin-left: 10px;
+}
+.btn-book{
+    background-color: goldenrod;
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
+.kilimanjaro_area {
+    position: relative;
+    z-index: 1;
+	}
+	.foo_top_header_one {
+    background-color: #292947;
+    color: #fff;
+}
+.section_padding_100_70 {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.foo_top_header_one {
+    color: #fff;
+}.kilimanjaro_part {
+    margin-bottom: 30px;
+}
+.foo_top_header_one .kilimanjaro_part > h5 {
+    color: #fff;
+}
+.kilimanjaro_part h4, .kilimanjaro_part h5 {
+    margin-bottom: 30px;
+}
+.kilimanjaro_single_contact_info > p, .kilimanjaro_single_contact_info > h5, .kilimanjaro_blog_area > a, .foo_top_header_one .kilimanjaro_part > p {
+    color: rgba(255,255,255,.5);
+}
+p, ul li, ol li {
+    font-weight: 300;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.kilimanjaro_bottom_header_one {
+    background-color: #111;
+}
+.section_padding_50 {
+    padding: 10px 0;
+    background-color:rgb(106, 106, 146);
+}
+.kilimanjaro_bottom_header_one p {
+    color: #fff;
+    margin: 0;
+}
+p, ul li, ol li {
+    font-weight: 300;
+}
+.kilimanjaro_bottom_header_one a {
+    color: inherit;
+    font-size: 14px;
+}
+a, h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+.m-top-15 {
+    margin-top: 15px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.kilimanjaro_widget > li {
+    display: inline-block;
+}
+p, ul li, ol li {
+    font-weight: 300;
+}
+ol li, ul li {
+    list-style: outside none none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+.kilimanjaro_links a {
+    border-bottom: 1px solid #333;
+    color: rgba(255,255,255,.5);
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    text-decoration:none;
+}
+.kilimanjaro_links a {
+    color: rgba(255,255,255,.5);
+    font-size: 13px;
+}
+top-15 {
+    margin-top: 15px;
+}
+.foo_top_header_one .kilimanjaro_part > h5 {
+    color: #fff;
+}
+.kilimanjaro_part h4, .kilimanjaro_part h5 {
+    margin-bottom: 30px;
+}
+.kilimanjaro_social_links > li {
+    display: inline-block;
+}
+p, ul li, ol li {
+    font-weight: 300;
+}
+.kilimanjaro_social_links a {
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: #888;
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 3px;
+    padding: 7px 12px;
+    text-decoration: none;
+}
+.kilimanjaro_blog_area .kilimanjaro_date {
+    color: #27ae60;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.kilimanjaro_blog_area > p {
+    color: rgba(255,255,255,.5);
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+.kilimanjaro_works > a {
+    display: inline-block;
+    position: relative;
+    width: 33.33333333%;
+    z-index: 1;
+}
+.kilimanjaro_thumb {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 75px;
+}
+.kilimanjaro_links a i {
+    padding-right: 10px;
+}
+  /* :: 18.0 Footer Area CSS */
+
+    .footer_area {
+        position: relative;
+        z-index: 1;
+    }
+ .footer_bottom p > i,
+    .footer_bottom p > a:hover {
+        color: #27ae60;
+    }	
+
+    .social_links_area {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 50px 0 30px 0;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+ .social_links_area > a:hover {
+        color: #27ae60;
+    }
+
+    .inline-style .social_links_area > a:hover {
+        background-color: transparent;
+        color: #27ae60;
+        border: 0px solid transparent;
+    }
+ .single_feature:hover .feature_text h4 {
+        color: #27ae60;
+    }
+.kilimanjaro_blog_area {
+    border-bottom: 1px solid #333;
+    margin-bottom: 15px;
+    padding: 0 0 15px 90px;
+    position: relative;
+    z-index: 1;
+}
+.kilimanjaro_links a {
+    /*border-bottom: 1px solid rgb(214, 142, 142);*/
+    color: rgba(255,255,255,.5);
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+.bg-n{
+    background-color:  #292947;
+}
